@@ -2,6 +2,9 @@
   "name": "adela-mansanet-react-portfolio",
   "version": "1.0.0",
   "description": "Personal portfolio app built in React.",
+  "engine":{
+  	"node":"14.17.5"
+  },
   "scripts": {
     "preinstall": "npm set audit false",
     "start": "webpack-dev-server --config webpack/dev.config.js --watch",
